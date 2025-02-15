@@ -19,6 +19,7 @@ function write(phrase, type) {
         case "console":
             console.log(phrase);
             outputElement.innerText = ""; // Apaga o texto da página
+            alert("Aperte F12 para ver sua mensagem na saída do console ao lado!");
             break;
         case "alert":
             alert(phrase);
