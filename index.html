@@ -1,24 +1,35 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Spectral:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap"
+        rel="stylesheet">
     <title>Meu primeiro JavaScript</title>
     <link rel="stylesheet" href="src/style.css">
 </head>
-<body>
-    <h1>Meu primeiro JavaScript</h1>
 
-    <label for="option">Escolha o seu bem-vindo</label><br>
-    <select name="option" id="option">
-        <option value="">Selecione uma opção abaixo</option>
-        <option value="console">Mostrar no console log</option>
-        <option value="alert">Mostrar no alert</option>
-        <option value="page">Mostrar na página</option>
-    </select>
+<body>
+
+    <div class="container center">
+        <h1>Meu primeiro JavaScript</h1>
+
+        <label for="option">Escolha o seu bem-vindo</label><br>
+        <select name="option" id="option" class="option">
+            <option value="">Selecione uma opção abaixo</option>
+            <option value="console">Mostrar no console log</option>
+            <option value="alert">Mostrar no alert</option>
+            <option value="page">Mostrar na página</option>
+        </select>
+    </div>
 
     <p id="output"></p> <!-- Local para exibir o texto na página -->
 
     <script src="src/main.js"></script>
 </body>
+
 </html>

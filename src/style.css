@@ -1,3 +1,50 @@
+body, html {
+    height: 100%;  /* Garantir que a altura da página ocupe toda a tela */
+    margin: 0;  /* Remover margens padrão */
+    display: flex;  /* Ativar o Flexbox no body */
+    justify-content: center;  /* Centralizar horizontalmente */
+    align-items: center;  /* Centralizar verticalmente */
+    background-color: black;
+    font-family: Spectral;
+    flex-direction: column;
+}
+
+.container {
+    text-align: center;  /* Opcional: para centralizar o texto dentro da div */
+    padding: 20px;  /* Opcional: para dar um espaçamento interno */
+    border: 1px solid #ccc;  /* Opcional: só para visualizar a borda da div */
+}
+
 option[value=""]{
     display: none;
+}
+
+.container{
+    width: 350px;
+    height: 225px;
+    border: 2px ridge red;
+    border-radius: 20px;
+    background-color: blanchedalmond;
+    margin: 20px;
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.center{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.option{
+    border-radius: 20px;
+}
+
+#output {
+    color: white;  /* Cor do texto */
+    background-color: black; /* Cor do fundo */
+    padding: 10px;  /* Espaçamento interno */
+    border-radius: 5px;  /* Borda arredondada */
+    text-align: center;  /* Centraliza o texto dentro do #output */
 }
